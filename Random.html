@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Random</title>
+    <script type="text/javascript" charset="utf-8">
+	//Los valores van de 0-al que yo determine
+	colores=["#3591FF","#31B4E8","#42FBFF","#31E8B8","#35FF91"];
+	alert(Math.floor(Math.random()*5));//Math.floor "rounds a number down to the nearest integer"; esto quiere decir que siempre me va a dar un numero inferior
+	//El numero que yo coloque siempre debe de ser uno arriba del numero de arreglos que tengo
+	</script>
+</head>
+
+<body>
+	<script type="text/javascript" charset="utf-8">
+		document.body.style.backgroundColor=(colores[Math.floor(Math.random()*colores.length)])
+		//En lugar de especificar el numero con colores.length determina el numero de arreglos que yo tengo  
+		//document.body.style.backgroundColor=(colores[Math.floor(Math.random()*5)])
+		//Con lo que tengo dentro de los corchetes me permite modificarlo 
+	</script>
+</body>
+
+</html>
+
